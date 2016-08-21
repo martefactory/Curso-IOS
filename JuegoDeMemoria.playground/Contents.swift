@@ -23,17 +23,18 @@ for id in range {
     if id%2 == 0 {
         print ("\(id) par!!!" )
     }else{
-    //Si el número es impar, imprime: # el número + “impar!!!”
+        //Si el número es impar, imprime: # el número + “impar!!!”
         print ("\(id) impar!!!" )
     }
     
     //Si el número se encuentra dentro de un rango del 30 al 40, imprime: # el número +  “Viva Swift!!!”
     if (id >= 30 && id <= 40) {
         print ("\(id) Viva Swift!!!" )
-    
+        
     }
 }
 
 // End
+
 
 
